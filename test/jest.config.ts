@@ -7,7 +7,7 @@ const config: Config.InitialOptions = {
       tsconfig: 'tsconfig.json'
     }
   },
-  setupFilesAfterEnv: ['jest-extended'],
+  setupFilesAfterEnv: ['jest-extended', '@relmify/jest-fp-ts'],
   moduleFileExtensions: [ 'ts', 'js' ],
   testMatch: [ '<rootDir>/ts/**/*.test.ts' ],
   testPathIgnorePatterns: [],
